@@ -4,8 +4,7 @@ import Todo from '../Todo/Todo';
 import styles from './TodoList.module.css'
 
 function TodoList({filter}) {
-  const [todos, setTodos] = useState([{id: '123', text: '장보기', status: 'active'},
-  {id: '124', text: '공부하기', status: 'active'}])
+  const [todos, setTodos] = useState([])
 
   const handleAdd = (todo) => {
     setTodos([...todos, todo])
