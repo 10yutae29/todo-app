@@ -6,7 +6,7 @@
 }
 
 .input {
-  flex: 1 1 auto;
+  flex: 1 2 auto;
   font-size: 1.4rem;
   padding: 0.7rem 1rem;
   border: none;
@@ -16,6 +16,7 @@
 }
 
 .button {
+  flex: 0 1 auto;
   cursor: pointer;
   background-color: var(--color-accent);
   color: var(--color-white);
